@@ -1,0 +1,17 @@
+{
+  "name": "status_check_app",
+  "version": "1.0.0",
+  "main": "server/index.js",
+  "author": "pafa7a",
+  "license": "MIT",
+  "scripts": {
+    "server": "nodemon server/index.js",
+    "build-client": "cd client && yarn build"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
